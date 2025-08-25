@@ -43,7 +43,7 @@ dependencies: [
 ## 🚀 Usage / 使用示例
 
 ```swift
-import ImageLoader
+import SwiftImageLoader
 
 // Basic usage / 基本用法
 ImageLoader.shared.loadImage(
