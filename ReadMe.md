@@ -25,7 +25,7 @@ Features memory & disk caching, request aggregation, background decoding, and pl
 ### CocoaPods
 
 ```ruby
-pod 'ImageLoader'
+pod 'SwiftImageLoader'
 ```
 
 ### Swift Package Manager (SPM) / Swift 包管理器
@@ -34,7 +34,7 @@ In `Package.swift`:
 
 ```swift
 dependencies: [
-    .package(url: "https://github.com/YourUsername/ImageLoader.git", from: "1.0.0")
+    .package(url: "https://github.com/myinter/SwiftImageLoader.git", from: "1.0.0")
 ]
 ```
 
