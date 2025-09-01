@@ -1,6 +1,6 @@
 # ImageLoader
 
-A lightweight, extensible image loader for iOS. 轻量级、可扩展的 iOS 图片加载器。
+A lightweight, extensible image loader for iOS & MacOS. 轻量级、可扩展的 iOS/MacOS 图片加载器。
 
 Features memory & disk caching, request aggregation, background decoding, and pluggable decoders for modern formats like **WebP** and **HEIF**.\
 支持内存与磁盘缓存、请求聚合、后台解码，以及对 **WebP** 和 **HEIF** 等现代格式的解码扩展。
@@ -52,6 +52,11 @@ ImageLoader.shared.loadImage(
 ) { image in
     imageView.image = image
 }
+
+// UIImageView loads image with method in extension / 使用UIImageView扩展加载
+aImageView.loadImage(from: "https://example.com/image.jpg",
+                    placeholder: nil)
+
 ```
 
 ---
