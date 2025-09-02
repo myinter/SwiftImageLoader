@@ -115,8 +115,8 @@ ImageLoader.shared.clearDiskCache()
 
 ImageLoader is available under the MIT license.\
 ImageLoader 采用 MIT 协议开源。\
-See the [LICENSE](LICENSE) file for details.\
-详情请查看 [LICENSE](LICENSE) 文件。
+See the [https://opensource.org/license/mit](LICENSE) file for details.\
+详情请查看 [https://opensource.org/license/mit](LICENSE) 文件。
 
 ---
 
