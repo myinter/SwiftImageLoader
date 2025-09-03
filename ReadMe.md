@@ -63,7 +63,7 @@ aImageView.loadImage(from: "https://example.com/image.jpg",
 
 ## 🔧 Custom Decoders / 自定义解码器
 
-By default, ImageLoader uses system decoders (`UIImage`). 默认使用系统解码器 (`UIImage`)。 For **WebP** or **HEIF** on older iOS versions, you can plug in your own decoder.\
+By default, ImageLoader uses system decoders (`UIImage` / `NSImage`). 默认使用系统解码器 (`UIImage` / `NSImage`)。 For **WebP** or **HEIF** on older iOS versions, you can plug in your own decoder.\
 在低版本 iOS 中，可以注入自定义解码器来支持 **WebP** 或 **HEIF**。
 
 ```swift
